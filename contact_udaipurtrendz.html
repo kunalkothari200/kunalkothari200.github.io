@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="description" content="Udaipur Trendz - One Stop Shop Trend" />
+	<meta name="keywords" content="Udaipur trendz , Udaipur trends, Shopping site udaipur, customized gift products in udaipur, tshirt, cup, mobile covers,customized cup, free shipping, COD, Cash on delivery, keychains, gift, lovers, men's clothing, women's choths, makeup products, discount" />
+	<meta name="author" content="Ankur vijayvargiya, kunal kothari, Akshat garg, gourav pratap, Ankur vijay" />
+	<meta name="robots" content="INDEX, FOLLOW" />
+    <title>Udaipur Trendz - Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css2/all.min.css" rel="stylesheet" />
+	<link href="css2/templatemo-style.css" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/png" href="img\simple-house-logo.png"/>
+</head>
+<body> 
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.png">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 style="color:black"; class="tm-site-title">Udaipur Trendz</h1>
+								<h6 style="color:black"; class="tm-site-description">One Stop Shop Trend</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li  class="tm-nav-li"><a href="index.html" class="tm-nav-link" style="color:black">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link" style="color:black">About</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active" style="color:black">Contact</a></li>
+
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+        <main>
+            <div class="tm-container-inner-2 tm-info-section">
+				<div class="row">
+					<!-- FAQ -->
+					<div class="col-12 tm-faq">
+						<h2 class="text-center tm-section-title">FAQs</h2>
+						<p class="text-center">We are here to help you. Thank you.</p>
+						<div class="tm-accordion">
+						  <button class="accordion">1. Is there any extra delivery charges?</button>
+							<div class="panel">
+							  <p>Delivary is free.</p>
+							</div>
+							
+							<button class="accordion">2. Is there any Replacement policy?</button>
+							<div class="panel">
+							  <p>If the product is defective.</p>
+							</div>
+							
+							<button class="accordion">3. In how much time i get my product?</button>
+							<div class="panel">
+							  <p>2-3 working days.</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div><br>
+        </main>	
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>

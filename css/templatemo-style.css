@@ -117,18 +117,19 @@ html {
   text-decoration: none;
   cursor: pointer;
   border: 0;
+  border-radius: 3px;
 }
 
 .tm-btn-default {
-  border: 1px solid #ccc;
-  background-color: transparent;
-  color: #626364;
+  border: 1px solid black;
+  background-color: goldenrod;
+  color: white;
 }
 
 .tm-btn-default:hover,
 .tm-btn-default:focus {
   color: white;
-  background-color: #98999A;
+  background-color: gold;
 }
 
 .tm-btn-primary {

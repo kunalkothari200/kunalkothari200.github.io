@@ -33,12 +33,22 @@ const generatePDF = async ( name ) => {
 
 const submitBtn = document.getElementById("submit");
 
-submitBtn.addEventListener("click", ()=>{
-    var name = prompt('What is your Full Name ?');
-    if(name == ""){
-        alert("please Enter Your Name.");
-    }
-    else{
-        generatePDF(name);
-    }
-});
+// submitBtn.addEventListener("click", ()=>{
+//     /*var name = prompt('What is your Full Name ?');
+//     if(name == ""){
+//         alert("please Enter Your Name.");
+//     }
+//     else{
+//         //generatePDF(name);
+//     } */
+//     var nm = document.getElementById("#name");
+//     alert(nm);
+// });
+
+
+function myFunction() {
+    var fname = document.getElementById("fname").value;
+    generatePDF(fname);
+    submitOK = "true";
+    return false;
+  }
